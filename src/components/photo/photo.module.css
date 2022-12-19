@@ -1,0 +1,19 @@
+.photoBack {
+    position: relative;
+    width: 300px;
+    height: 350px;
+    background-color: #000;
+}
+
+.myPhoto {
+    position: absolute;
+
+    left: 25px;
+    top: 25px;
+
+    /*transform: translateX(-50%);*/
+
+    width: 250px;
+    height: 350px;
+    object-fit: cover;
+}

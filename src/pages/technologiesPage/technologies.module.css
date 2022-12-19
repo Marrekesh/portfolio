@@ -1,0 +1,18 @@
+.technologiesPage {
+    padding: 20px 0;
+    min-height: 500px;
+    background-color: #f1f8fa;
+}
+
+/*.technologiesContainer {*/
+/*    display: flex;*/
+/*    justify-content: space-between;*/
+/*}*/
+
+.technologiesWrapper {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+

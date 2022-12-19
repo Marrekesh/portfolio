@@ -1,0 +1,65 @@
+.navBar {
+    width: 100%;
+    text-align: center;
+}
+
+.logo {
+    font-family: 'Rubik';
+    font-size: 1.5em;
+    color: white;
+}
+
+.logo:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: royalblue;
+    border-radius: 10px;
+    margin-top: 15px;
+}
+
+.nav {
+    padding: 15px 0;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+}
+
+.menuList {
+    list-style-type: none;
+    display: flex;
+    gap: 48px;
+}
+
+.menuItem {
+
+}
+
+.menuLink {
+    font-family: 'Rubik';
+    position: relative;
+    font-size: 1.5em;
+    color: gray;
+    text-decoration: none;
+}
+
+.menuLink:hover {
+    color: #fff;
+}
+
+.menuLink:before {
+    content: '';
+    position: absolute;
+    left: 0; bottom: -5px;
+    width: 0;
+    height: 3px;
+    border-radius: 10px;
+    background-color: royalblue;
+    transition: width 0.35s;
+}
+
+.menuLink:hover:before {
+    width: 100%;
+}

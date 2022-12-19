@@ -1,0 +1,16 @@
+.title {
+    font-family: 'Rubik';
+    font-size: 1.5em;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.title:after {
+    content: '';
+    display: block;
+    width: 20px;
+    height: 5px;
+    background-color: royalblue;
+    border-radius: 10px;
+    margin-top: 15px;
+}
