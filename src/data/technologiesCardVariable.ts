@@ -46,10 +46,5 @@ export const technologiesCardVariable: Array<TechoVariablesType> = [
         name: 'REDUX',
         Img: REDUX
     },
-    {
-        id: '6',
-        name: 'REDUX',
-        Img: REDUX
-    },
 
 ]

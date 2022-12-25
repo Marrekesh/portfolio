@@ -1,5 +1,5 @@
 
-import {ImgTechnoCArdType} from "../../utils/technologiesCardVariable";
+import {ImgTechnoCArdType} from "../../data/technologiesCardVariable";
 
 import c from './tecnologiesCard.module.css'
 
@@ -41,7 +41,7 @@ const TecnologiesCard = ({name, Img}: TecnologiesCardType) => {
             <div className={c.circulo}>
                 <Img/>
             </div>
-            <p>{name}</p>
+            <p className={c.name}>{name}</p>
             <div className={c.arrow}>&#10144;</div>
         </a>
     );

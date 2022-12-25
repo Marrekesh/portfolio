@@ -1,0 +1,13 @@
+.projectPage {
+    width: 100%;
+    min-height: 500px;
+    padding: 20px 0;
+    background-color: var(--main-color);
+}
+
+.projectWrapper {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}

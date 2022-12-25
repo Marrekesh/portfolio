@@ -1,12 +1,19 @@
-
-
 import c from './title.module.css'
+import {ReactNode} from "react";
 
-const Title = ({children}: any) => {
+type TitlePropType = {
+    children: ReactNode
+    textColor?: string
+}
+
+const Title = ({children, textColor}: TitlePropType) => {
+
+    const classTitle = textColor === 'black' ? `${c.title} ${c.textColorBlack}` : c.title
+
     return (
-        <div className={c.title}>
+        <h2 className={classTitle}>
             {children}
-        </div>
+        </h2>
     );
 };
 

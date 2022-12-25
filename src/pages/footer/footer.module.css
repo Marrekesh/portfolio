@@ -1,0 +1,41 @@
+.footer {
+    width: 100%;
+    height: auto;
+    padding: 90px 0 30px;
+    background-color: var(--main-color);
+}
+
+.footerContainer {
+    margin: 0 auto;
+    width: 800px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.footerItem {
+    display: flex;
+    flex-direction: column;
+}
+
+.footerItem > span {
+    font-family: 'Rubik';
+    margin-bottom: 5px;
+    font-size: 1.4em;
+    color: #fff;
+}
+
+.link {
+    margin-right: 10px;
+}
+
+.line {
+    margin-bottom: 30px;
+}
+
+.rights {
+    font-family: 'Rubik';
+    font-size: 1.1em;
+    text-align: center;
+    color: white;
+}

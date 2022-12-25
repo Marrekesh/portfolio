@@ -4,7 +4,7 @@
     color: #fff;
 
 
-    background-color: royalblue;
+    background-color: var(--secondary-color);
     border: none;
     border-radius: 20px;
     padding: 10px 20px;
