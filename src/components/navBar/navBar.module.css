@@ -1,23 +1,48 @@
 .navBar {
+    /*position: relative;*/
     width: 100%;
     text-align: center;
 }
 
-.logo {
-    font-family: 'Rubik';
-    font-size: 1.5em;
-    color: white;
+.menuBlock {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
 }
 
-.logo:after {
-    content: '';
-    display: block;
-    width: 20px;
-    height: 5px;
-    background-color: var(--secondary-color);
-    border-radius: 10px;
-    margin-top: 15px;
+.burgerBlock {
+    position: fixed;
+    top: 0;
+    left: 20px;
+    bottom: 0;
+
+    z-index: 2000;
 }
+
+.burgerBlock {
+    display: none;
+}
+
+
+/*.burgerMenuInner {*/
+/*    position: absolute;*/
+/*}*/
+/*.logo {*/
+/*    font-family: 'Rubik';*/
+/*    font-size: 1.5em;*/
+/*    color: white;*/
+/*}*/
+
+/*.logo:after {*/
+/*    content: '';*/
+/*    display: block;*/
+/*    width: 20px;*/
+/*    height: 5px;*/
+/*    background-color: var(--secondary-color);*/
+/*    border-radius: 10px;*/
+/*    margin-top: 15px;*/
+/*}*/
 
 .nav {
     padding: 15px 0;
@@ -27,39 +52,53 @@
     align-items: center;
 }
 
-.menuList {
-    list-style-type: none;
-    display: flex;
-    gap: 48px;
+.burgerBlock {
+    padding: 20px;
 }
+/*.menuList {*/
+/*    list-style-type: none;*/
+/*    display: flex;*/
+/*    gap: 48px;*/
+/*}*/
 
-.menuItem {
+/*.menuItem {*/
 
-}
+/*}*/
 
-.menuLink {
-    font-family: 'Rubik';
-    position: relative;
-    font-size: 1.4em;
-    color: gray;
-    text-decoration: none;
-}
+/*.menuLink {*/
+/*    font-family: 'Rubik';*/
+/*    position: relative;*/
+/*    font-size: 1.4em;*/
+/*    color: gray;*/
+/*    text-decoration: none;*/
+/*}*/
 
-.menuLink:hover {
-    color: #fff;
-}
+/*.menuLink:hover {*/
+/*    color: #fff;*/
+/*}*/
 
-.menuLink:before {
-    content: '';
-    position: absolute;
-    left: 0; bottom: -5px;
-    width: 0;
-    height: 3px;
-    border-radius: 10px;
-    background-color: var(--secondary-color);
-    transition: width 0.35s;
-}
+/*.menuLink:before {*/
+/*    content: '';*/
+/*    position: absolute;*/
+/*    left: 0; bottom: -5px;*/
+/*    width: 0;*/
+/*    height: 3px;*/
+/*    border-radius: 10px;*/
+/*    background-color: var(--secondary-color);*/
+/*    transition: width 0.35s;*/
+/*}*/
 
-.menuLink:hover:before {
-    width: 100%;
+/*.menuLink:hover:before {*/
+/*    width: 100%;*/
+/*}*/
+
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .menuBlock {
+       display: none;
+    }
+
+    .burgerBlock {
+        display: flex;
+    }
 }
