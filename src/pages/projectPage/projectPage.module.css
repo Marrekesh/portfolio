@@ -11,3 +11,15 @@
     flex-wrap: wrap;
     justify-content: space-between;
 }
+
+@media screen and (min-width: 767px) and (max-width: 1023px){
+    .projectWrapper {
+        justify-content: center;
+    }
+}
+
+@media screen and (min-width: 601px) and (max-width: 766px){
+    .projectWrapper {
+        justify-content: center;
+    }
+}

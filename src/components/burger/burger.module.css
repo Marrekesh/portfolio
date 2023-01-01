@@ -1,6 +1,6 @@
 .burger {
     width: 40px;
-    height: auto;
+    height: 40px !important;
     cursor: pointer;
     margin-bottom: 50px;
 }
@@ -12,3 +12,4 @@
     margin-bottom: 4px;
     background-color: white;
 }
+
